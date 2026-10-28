@@ -1,0 +1,11 @@
+{
+  "name": "tr-map-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Türkiye il ve ilçe JSON veri kümesi",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/read-data.mjs"
+  }
+}
