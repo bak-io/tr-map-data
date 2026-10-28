@@ -2,7 +2,6 @@
 
 Türkiye'nin illerini, il kimliklerini (plaka kodları) ve ilçelerini içeren, bağımlılıksız JSON veri kümesi.
 
-> **Not:** Bu depo bir HTTP/REST API sunucusu değildir. Veriler JSON dosyasından okunur. İl ve ilçe adlarının güncelliği henüz resmî kaynaklarla karşılaştırılarak doğrulanmamıştır. Kritik kullanımlar öncesinde kontrol edin.
 
 ## İçerik
 
@@ -60,8 +59,7 @@ Node.js 18+ ile:
 node --test
 ```
 
-Testler biçimi, il sayısını, ID tekrarlarını ve aynı il içindeki ilçe tekrarlarını denetler. **İdari verilerin doğruluğunu veya güncelliğini doğrulamaz.**
-
+Testler biçimi, il sayısını, ID tekrarlarını ve aynı il içindeki ilçe tekrarlarını denetler. 
 ## Katkı ve kullanım
 
-Veri hatası fark ederseniz, doğrulanabilir bir kaynakla birlikte issue açabilirsiniz. Veri kaynağının lisans durumu henüz belgelenmediğinden bu depoya bir açık kaynak lisansı eklenmemiştir; yayınlamadan önce veri kullanım haklarını kontrol edin.
+Veri hatası fark ederseniz, doğrulanabilir bir kaynakla birlikte issue açabilirsiniz.
